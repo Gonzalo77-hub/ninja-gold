@@ -1,0 +1,29 @@
+.barra {
+    overflow: scroll;
+    height: 200px;
+    width: 500px;
+    background-color: azure;
+
+}
+.color-rojo {
+    color: red;
+}
+.color-verde {
+    color:green;
+}
+
+.fondo {
+    background-image: url("Fondo-Moneda.jpg");
+}
+.back1 {
+    background-color: blue;
+}
+.letra {
+    color:white;
+}
+.imagen{
+    width: 250px;
+    height: 300px;
+
+
+}
