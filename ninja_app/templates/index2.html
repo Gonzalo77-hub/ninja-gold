@@ -71,7 +71,7 @@
             <div class="row">
                 <div class="barra border border-4 my-4">
                     {% for ganancia in request.session.list %}
-                    <p class="color-{{ganancia.color}}" >{{ganancia.texto}}</p>
+                    <p class="color-{{ganancia.color}}" >{{ganancia.texto}} {{ganancia.date}}</p>
                     {% endfor %}
                 </div>
             </div>
